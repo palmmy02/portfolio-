@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kanit", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+
+}
+
+.grid-item {
+    grid-column: span 1;
+    text-align: center;
+
+}
+
+.item-col4 {
+    grid-column: span 4;
+
+
+}
+
+.item-col3 {
+    grid-column: span 3;
+
+
+}
+
+.item-col2 {
+    grid-column: span 2;
+
+
+}
+
+.navbar {
+    background-color: rgb(218, 243, 243);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-menu{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(41, 111, 192);
+    font-size: 20px;
+}
+
+.navbar-menu:hover{
+    border-bottom: 2px solid rgb(41, 111, 192);
+}
+
+
+
+
+
+
+/* CSS */
+.button-21 {
+  align-items: center;
+  appearance: none;
+  background-color: #3EB2FD;
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-21:active,
+.button-21:focus {
+  outline: none;
+}
+
+.button-21:hover {
+  background-position: -20px -20px;
+}
+
+.button-21:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+
+.input{
+    width: 150px;
+    padding: 15px;
+    background-color: #858282;
+    border: 1px solid #948a8a;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
